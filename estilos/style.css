@@ -1,11 +1,36 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+}
+
+.navside{
+    background-color: aliceblue;
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    
+}
+
+.navside li {
+margin:auto;
+padding: 10px;
+align-content: center;
 
 }
 
+header{
+    background-color: chartreuse;
+    margin-top: 0px;
+    width: auto;
+    
+}
+
 body{
-    background-color: rgb(85, 201, 201);
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 main{
